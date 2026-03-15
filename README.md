@@ -82,3 +82,14 @@ History:
    78  history
 
 
+How to clone Http & ssh urin in Git:
+Http:
+1. In github setting-> developer settings-> classic token -> generate new token (classic) - must select Repo
+   
+SSH:
+1. create public & private key (ssh-keygen) and enter 3 times
+2. ll -a  ---> see hidden files
+3. cd .ssh/  --> we can see public and private key
+4. cat id_rsa.pub ---> contains public key and copy entire key
+5. Goto github -> settings -> ssh and GPG keys -> new ssh key -> name and paste that key
+
